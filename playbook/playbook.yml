@@ -1,0 +1,12 @@
+---
+##
+## Install base configuration
+##
+
+- name: Install the minimum + Uptime Checker
+  hosts: localhost
+  sudo: yes
+
+
+  roles:
+    - base
